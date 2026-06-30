@@ -1,0 +1,265 @@
+{
+  "n_linhas": 10127,
+  "n_colunas": 15,
+  "variaveis_numericas": [
+    "idade",
+    "Qte_dependentes",
+    "tempo_ultimoservico",
+    "trabalha",
+    "vl_salario_mil",
+    "reg_moradia",
+    "casa_propria",
+    "vl_imovel_em_mil",
+    "Qte_cartoes",
+    "Qte_carros"
+  ],
+  "variaveis_categoricas": [
+    "sexo",
+    "estado_civil",
+    "escola"
+  ],
+  "descritiva_numerica": {
+    "id": {
+      "count": 10127.0,
+      "mean": 739177606.3337,
+      "std": 36903783.4502,
+      "min": 708082083.0,
+      "25%": 713036770.5,
+      "50%": 717926358.0,
+      "75%": 773143533.0,
+      "max": 828343083.0
+    },
+    "idade": {
+      "count": 10127.0,
+      "mean": 46.326,
+      "std": 8.0168,
+      "min": 26.0,
+      "25%": 41.0,
+      "50%": 46.0,
+      "75%": 52.0,
+      "max": 73.0
+    },
+    "Qte_dependentes": {
+      "count": 10127.0,
+      "mean": 1.5474,
+      "std": 1.4891,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 1.0,
+      "75%": 3.0,
+      "max": 5.0
+    },
+    "tempo_ultimoservico": {
+      "count": 10127.0,
+      "mean": 34.1332,
+      "std": 8.2214,
+      "min": 7.0,
+      "25%": 30.0,
+      "50%": 34.0,
+      "75%": 39.0,
+      "max": 57.0
+    },
+    "trabalha": {
+      "count": 10127.0,
+      "mean": 0.9119,
+      "std": 0.2834,
+      "min": 0.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "vl_salario_mil": {
+      "count": 10127.0,
+      "mean": 70.209,
+      "std": 55.567,
+      "min": 0.0,
+      "25%": 21.3305,
+      "50%": 66.4863,
+      "75%": 107.5442,
+      "max": 233.3018
+    },
+    "reg_moradia": {
+      "count": 10127.0,
+      "mean": 3.7835,
+      "std": 1.5805,
+      "min": 1.0,
+      "25%": 3.0,
+      "50%": 4.0,
+      "75%": 5.0,
+      "max": 6.0
+    },
+    "casa_propria": {
+      "count": 10127.0,
+      "mean": 0.3524,
+      "std": 0.4777,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "vl_imovel_em_mil": {
+      "count": 10127.0,
+      "mean": 208.9991,
+      "std": 378.4952,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 289.0,
+      "max": 1800.0
+    },
+    "Qte_cartoes": {
+      "count": 10127.0,
+      "mean": 1.0836,
+      "std": 0.3338,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 4.0
+    },
+    "Qte_carros": {
+      "count": 10127.0,
+      "mean": 0.6234,
+      "std": 0.5698,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 2.0
+    },
+    "SCORE_CREDITO": {
+      "count": 10127.0,
+      "mean": 469.5004,
+      "std": 133.8147,
+      "min": 162.0,
+      "25%": 375.0,
+      "50%": 449.6,
+      "75%": 540.9,
+      "max": 979.65
+    }
+  },
+  "categorias": {
+    "sexo": {
+      "F": 5358,
+      "M": 4769
+    },
+    "estado_civil": {
+      "casado": 4687,
+      "solteiro": 3943,
+      "na": 749,
+      "divorciado": 748
+    },
+    "escola": {
+      "ensino medio": 3352,
+      "ensino fundam": 2283,
+      "graduacao": 2094,
+      "mestrado": 1639,
+      "doutorado": 759
+    }
+  },
+  "correlacao_score": {
+    "SCORE_CREDITO": 1.0,
+    "vl_imovel_em_mil": 0.5373,
+    "vl_salario_mil": 0.4141,
+    "tempo_ultimoservico": 0.384,
+    "Qte_cartoes": 0.3105,
+    "Qte_carros": 0.253,
+    "casa_propria": 0.2496,
+    "trabalha": 0.2346,
+    "idade": 0.2133,
+    "Qte_dependentes": 0.1036,
+    "id": 0.0422,
+    "reg_moradia": -0.3105
+  },
+  "modelos": {
+    "Regressao Linear": {
+      "MAE": 61.74104432818116,
+      "RMSE": 81.49048933963498,
+      "R2": 0.6262038039718949,
+      "MAPE": 0.14178613349426128,
+      "CV_R2_media": 0.6561057573648597,
+      "CV_R2_desvio": 0.013235374144210372,
+      "importancia_permutacao": {
+        "vl_imovel_em_mil": 0.80034,
+        "casa_propria": 0.300777,
+        "tempo_ultimoservico": 0.255849,
+        "vl_salario_mil": 0.162414,
+        "Qte_carros": 0.120628,
+        "Qte_cartoes": 0.058729,
+        "reg_moradia": 0.016501,
+        "trabalha": 0.016237,
+        "sexo": 0.009995,
+        "idade": 0.009147,
+        "escola": 0.004805,
+        "estado_civil": 0.004577,
+        "Qte_dependentes": 0.004308
+      },
+      "coeficientes": {
+        "vl_imovel_em_mil": 86.083437,
+        "casa_propria": -51.343613,
+        "tempo_ultimoservico": 47.570732,
+        "vl_salario_mil": 38.70461,
+        "Qte_carros": 34.275098,
+        "Qte_cartoes": 23.737092,
+        "estado_civil_divorciado": 23.213283,
+        "estado_civil_na": 17.82887,
+        "sexo_M": -17.72675,
+        "reg_moradia": -12.626406,
+        "trabalha": 11.573236,
+        "escola_ensino fundam": -10.850928,
+        "idade": -10.242914,
+        "escola_mestrado": 9.95675,
+        "Qte_dependentes": 6.731685,
+        "escola_ensino medio": 2.49032,
+        "escola_graduacao": 2.333334,
+        "estado_civil_solteiro": -1.758396
+      }
+    },
+    "Arvore de Decisao": {
+      "MAE": 66.07334105848702,
+      "RMSE": 88.05601454069892,
+      "R2": 0.5635453986734575,
+      "MAPE": 0.15052697058972767,
+      "CV_R2_media": 0.5806456319352561,
+      "CV_R2_desvio": 0.006263177848835639,
+      "importancia_permutacao": {
+        "vl_imovel_em_mil": 0.487591,
+        "vl_salario_mil": 0.254782,
+        "tempo_ultimoservico": 0.127824,
+        "Qte_carros": 0.080295,
+        "Qte_cartoes": 0.016239,
+        "estado_civil": 0.004292,
+        "reg_moradia": 0.000787,
+        "idade": 0.0,
+        "sexo": 0.0,
+        "escola": 0.0,
+        "Qte_dependentes": 0.0,
+        "trabalha": 0.0,
+        "casa_propria": 0.0
+      },
+      "regras_arvore_resumo": "|--- vl_imovel_em_mil <= 1.21\n|   |--- vl_salario_mil <= -0.89\n|   |   |--- tempo_ultimoservico <= -0.69\n|   |   |   |--- vl_salario_mil <= -0.94\n|   |   |   |   |--- truncated branch of depth 2\n|   |   |   |--- vl_salario_mil >  -0.94\n|   |   |   |   |--- truncated branch of depth 2\n|   |   |--- tempo_ultimoservico >  -0.69\n|   |   |   |--- Qte_carros <= 1.53\n|   |   |   |   |--- truncated branch of depth 2\n|   |   |   |--- Qte_carros >  1.53\n|   |   |   |   |--- truncated branch of depth 2\n|   |--- vl_salario_mil >  -0.89\n|   |   |--- tempo_ultimoservico <= -0.69\n|   |   |   |--- Qte_carros <= -0.21\n|   |   |   |   |--- truncated branch of depth 2\n|   |   |   |--- Qte_carros >  -0.21\n|   |   |   |   |--- truncated branch of depth 2\n|   |   |--- tempo_ultimoservico >  -0.69\n|   |   |   |--- vl_salario_mil <= 1.13\n|   |   |   |   |--- truncated branch of depth 2\n|   |   |   |--- vl_salario_mil >  1.13\n|   |   |   |   |--- truncated branch of depth 2\n|--- vl_imovel_em_mil >  1.21\n|   |--- vl_imovel_em_mil <= 1.91\n|   |   |--- vl_salario_mil <= 0.60\n|   |   |   |--- Qte_carros <= -0.21\n|   |   |   |   |--- truncated branch of depth 2\n|   |   |   |--- Qte_carros >  -0.21\n|   |   |   |   |--- truncated branch of depth 2\n|   |   |--- vl_salario_mil >  0.60\n|   |   |   |--- tempo_ultimoservico <= 0.04\n|   |   |   |   |--- truncated branch of depth 2\n|   |   |   |--- tempo_ultimoservico >  0.04\n|   |   |   |   |--- truncated branch of depth 2\n|   |--- vl_imovel_em_mil >  1.91\n|   |   |--- tempo_ultimoservico <= 0.52\n|   |   |   |--- vl_salario_mil <= 0.77\n|   |   |   |   |--- truncated branch of depth 2\n|   |   |   |--- vl_salario_mil >  0.77\n|   |   |   |   |--- truncated branch of depth 2\n|   |   |--- tempo_ultimoservico >  0.52\n|   |   |   |--- estado_civil_solteiro <= 0.50\n|   |   |   |   |--- truncated branch of depth 2\n|   |   |   |--- estado_civil_solteiro >  0.50\n|   |   |   |   |--- truncated branch of depth 2\n"
+    }
+  },
+  "diagnostico_regressao": {
+    "R2_ajustado_base_completa": 0.6587364139674822,
+    "Durbin_Watson": 1.9894517331741999,
+    "Jarque_Bera_pvalor": 2.3258153200785898e-207,
+    "Breusch_Pagan_pvalor": 2.4722596172033084e-159
+  },
+  "VIF_top": {
+    "sexo_M": 3.9146,
+    "casa_propria": 3.8702,
+    "estado_civil_solteiro": 3.462,
+    "reg_moradia": 3.0921,
+    "vl_salario_mil": 2.6857,
+    "idade": 2.5933,
+    "tempo_ultimoservico": 2.593,
+    "vl_imovel_em_mil": 2.5829,
+    "escola_ensino medio": 2.082,
+    "Qte_dependentes": 1.9594,
+    "escola_ensino fundam": 1.8233,
+    "escola_graduacao": 1.7333
+  }
+}
